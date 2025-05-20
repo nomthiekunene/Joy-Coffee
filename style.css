@@ -1,0 +1,229 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.navbar-nav{
+    padding-left: 100px;
+    margin-left: 400px;
+}
+li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #3E2012;
+}
+
+.banner{
+    /* display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center; */
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    background-color: #f4f4f4;
+}
+.coffee{
+    text-align: center; 
+}
+
+.coff{
+    color: #EDC588;
+    font-size: 265px;
+    font-weight: 700;
+    /* position: absolute; */
+}
+
+.beans{
+    margin-left: -400px;
+    margin-top: -400px;
+    position: absolute;
+}
+
+.milkshake{
+    width: 450px;
+    height: 450px;
+    margin-top: -400px;
+    position: absolute;
+    margin-left: -200px;
+}
+
+.never{
+   position: relative;
+   
+}
+
+.in{
+    position: relative;
+    bottom: 500px;
+}
+
+.never{
+    color: #3F2318;
+    font-weight: 700;
+    font-size: 32px;
+    width: 427px;
+}
+
+.order{
+    background-color: #813A1A;
+    color: white;
+    border-color: #813A1A;
+}
+
+.read{
+    background-color: #813A1A;
+    color: white;
+    border-color: #813A1A;
+}
+
+.joy{
+    color: #3E2012;
+    font-weight: 700;
+    font-size: 41px;
+    font-family: gotham;
+}
+
+.in{
+    margin-top: 550px;
+}
+.inner{
+    margin-top: 30px;
+}
+
+.inner{
+    margin-top: 30px;
+}
+.tab{
+    font-size: 35px;
+    color: white;
+    margin-top: 50px;
+}
+.tab2{
+    font-size: 40px;
+    width: 421px;
+    color: white;
+}
+.login{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+.signup{
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 50px;
+   
+    background-color: #EDC588;
+    text-color: #813A1A;
+}
+#funny{
+    background-image: url(images/coffee-bean-tea-espresso-coffee-cup-coffee-beans-27e3377b5fe4cf82cb69afad6b424366\ 1.png);
+    background-color: #3E2012;
+    height: 400px;
+    
+}
+input{
+    padding-top: 15px;
+    padding-right: 20x;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
