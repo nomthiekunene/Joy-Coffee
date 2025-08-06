@@ -4,24 +4,18 @@ body{
     overflow-x: hidden;
 }
 .navbar-nav{
-    padding-left: 100px;
-    margin-left: 400px;
+    padding-left: 10px;
+    margin-left: 50px;
 }
-li a{
-    text-decoration: none;
-    font-size: 24px;
-    color: #3E2012;
-}
-
 .banner{
     /* display: flex;
     height: 100vh;
     align-items: center;
     justify-content: center; */
     display: grid;
-    height: 100vh;
     place-items: center;
     background-color: #f4f4f4;
+    height: 120vh;
 }
 .coffee{
     text-align: center; 
@@ -36,26 +30,21 @@ li a{
 
 .beans{
     margin-left: -400px;
-    margin-top: -400px;
+    margin-top: -320px;
     position: absolute;
 }
 
 .milkshake{
-    width: 450px;
-    height: 450px;
-    margin-top: -400px;
+    width: 550px;
+    height: 550px;
+    margin-top: -450px;
     position: absolute;
     margin-left: -200px;
 }
 
-.never{
-   position: relative;
-   
-}
-
 .in{
     position: relative;
-    bottom: 500px;
+    bottom: 600px;
 }
 
 .never{
@@ -63,6 +52,8 @@ li a{
     font-weight: 700;
     font-size: 32px;
     width: 427px;
+    position: relative;
+   margin-bottom: 10px;
 }
 
 .order{
@@ -85,7 +76,8 @@ li a{
 }
 
 .in{
-    margin-top: 550px;
+    margin-top: 480px;
+    
 }
 .inner{
     margin-top: 30px;
@@ -97,7 +89,6 @@ li a{
 .tab{
     font-size: 35px;
     color: white;
-    margin-top: 50px;
 }
 .tab2{
     font-size: 40px;
@@ -109,121 +100,376 @@ li a{
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 50px;
+    color: white;
+    background-color: #3E2012;
+    border-color: #EDC588;
 }
 .signup{
     text-align: center;
     margin-left: 50px;
     margin-bottom: 50px;
-   
     background-color: #EDC588;
-    text-color: #813A1A;
+    color: #813A1A;
 }
 #funny{
     background-image: url(images/coffee-bean-tea-espresso-coffee-cup-coffee-beans-27e3377b5fe4cf82cb69afad6b424366\ 1.png);
     background-color: #3E2012;
-    height: 400px;
+    height: 350px;
+    padding-right: 50px;
+    margin-top: -150px;
     
 }
 input{
-    padding-top: 15px;
+    padding-top: 10px;
     padding-right: 20x;
-   
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.discover{
+    align-items: center;
+    justify-content: center;
+}
+.spoon{
+    margin-top: 200px;
+    height: 700px;
+    width: 100%;
+
+}
+.taste{
+    color: #3E2012;
+    margin-top: 230px;
+    font-weight: 700;
+}
+.craft{
+    margin-top: 80px;
+}
+.more{
+     background-color: #813A1A;
+    color: white;
+    border-color: #813A1A;
+    margin-top: 20px; 
+}
+.served{
+    margin-top: 50px;
+    margin-left: 200px;
+    font-weight: 700;
+}
+.oline{
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+.online{
+    color: #813A1A;
+    font-weight: 600;
+    font-size: xx-large;
+}
+.plus{
+    font-weight: 800;
+    margin-left: 50px;
+    font-size: xx-large;
+}
+.icon{
+    height: 80px;
+    margin-top: 80px;
+    color: #EDC588;
+}
+.head{
+    font-weight: 600;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+.para{
+    margin-top: 20px;
+}
+.onoffer{
+    margin-top: 80px;
+    margin-left: 450px;
+    font-weight: 700;
+    font-size: xx-large;
+    color: #3E2012;
+}
+.catering{
+    text-align: center;
+    margin-left: 50px;
+    font-size: x-large;
+    color: #3E2012;
+    margin-top: 30px;
+}
+.ourt{
+    margin-top: 80px;
+    margin-left: 480px;
+    font-weight: 700;
+    font-size: xx-large;
+    color: #3E2012;
+}
+.individual{
+    text-align: center;
+    margin-left: 50px;
+    color: #3E2012;
+    margin-top: 30px;
+    font-size: x-large;
+}
+.card-title{
+    color: #3E2012;
+}
+.card-text{
+    color: #3E2012;
+}
+.lin{
+    color: #3E2012;
+}
+.card{
+    margin-top: 80px;
+}
+.testimonials{
+    background-image: url(images/coff.png);
+    height: 208vh;
+    background-position: center;
+    background-size: cover ;
+    
+}
+.overlay{
+   color: #813A1A;
+   height: 600px;
+    
+}
+.lines{
+    width: 20%;
+    height: 50px;
+}
+.mback{
+    height: 500px;
+    width: 110%;
+}
+.maguire{
+    height: 500px;
+    background-color: #fff8f83a;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 105%;
+    margin-left: -25px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.matt{
+    padding-top: 40px;
+    font-weight: 500;
+    font-size: 34px;
+}
+.hesitate{
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 24px;
+
+}
+.lines{
+    margin-left: 130px;
+    width: 50%;
+    height: 2px;
+    border: solid;
+    margin-top: 40px;
+}
+.twit{
+    height: 35px;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.face{
+    height: 35px;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+.bondlile{
+    width: 108%;
+    height: 410px;
+    object-fit: cover;
+}
+.bonlie{
+    background-color: #f0ae4ac9;
+    height: 410px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.name{
+    padding-top: 40px;
+}
+.discription{
+    padding-top: 40px;
+}
+.line{
+    margin-left: 68px;
+    width: 50%;
+    height: 2px;
+    border: solid;
+    margin-top: 40px;
+}
+.twitte{
+    height: 35px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.faceb{
+    height: 35px;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+.noreen{
+    width: 108%;
+    height: 410px;
+    margin-left: -25px;
+    margin-top: 2px;
+    object-fit: cover;
+}
+.reen{
+    background-color: #f0ae4ac9;
+    height: 410px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: -25px;
+}
+.arnold{
+    background-color: #f0ae4ac9;
+    height: 406px;
+    width: 107.5%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: -2px;
+}
+.nzira{
+    width: 100%;
+    height: 406px;
+    margin-top: -2px;
+    object-fit: cover;
+}
+.shalom{
+    background-color: #f0ae4ac9;
+    height: 406px;
+    width: 107.5%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: -24px;
+    margin-top: -2px;
+}
+.gela{
+    width: 107.5%;
+    height: 406px;
+    object-fit: cover;
+    margin-top: -2px;
+    margin-left: -24px;
+}
+.ready{
+    margin-top: 80px;
+}
+.logo{
+    background-color: #EDC588;
+    width: 107%;
+    height: 440px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.joyc{
+    width: 100%;
+    margin-top: 10px;
+    
+}
+.tastecof{
+    color: #813A1A;
+}
+.flexco{
+    display: flex;
+}
+.tastecof{
+    font-family: Gotham;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 20px;
+}
+.contact{
+    font-family: Gotham;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #813A1A;
+    margin-top: 50px;
+}
+.cof24{
+    font-family: Gotham;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #813A1A;
+    margin-top: 50px;
+
+}
+.call{
+    font-family: Gotham;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #813A1A;
+    margin-top: 50px;
+}
+.foot{
+    background-image: url(images/indoor\ functions.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 440px;
+    width: 160%;
+
+}
+.ovela{
+    background-color: #813b1a96;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 180px;
+    padding-right: 180px; 
+    height: 100%;
+    width: 100%;
+}
+.newsletter{
+    font-family: Gotham;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+}
+.inbox{
+    font-family: Gotham;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+    width: 331;
+    height: 92;
+    margin-top: 140px;
+    margin-left: 45px;
+}
+.subsc{
+    background-color: #EDC588;
+    border-color: #EDC588;
 }
