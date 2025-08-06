@@ -3,9 +3,11 @@ body{
     margin: 0;
     overflow-x: hidden;
 }
-.navbar-nav{
-    padding-left: 10px;
-    margin-left: 50px;
+.gerry{
+    display: flex;
+    gap: 50px;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 .banner{
     /* display: flex;
@@ -15,7 +17,7 @@ body{
     display: grid;
     place-items: center;
     background-color: #f4f4f4;
-    height: 120vh;
+    height: 90vh;
 }
 .coffee{
     text-align: center; 
@@ -37,14 +39,14 @@ body{
 .milkshake{
     width: 550px;
     height: 550px;
-    margin-top: -450px;
+    margin-top: -350px;
     position: absolute;
     margin-left: -200px;
 }
 
 .in{
     position: relative;
-    bottom: 600px;
+    margin-top: 80px;
 }
 
 .never{
@@ -53,7 +55,7 @@ body{
     font-size: 32px;
     width: 427px;
     position: relative;
-   margin-bottom: 10px;
+    bottom: 10px;
 }
 
 .order{
@@ -74,15 +76,6 @@ body{
     font-size: 41px;
     font-family: gotham;
 }
-
-.in{
-    margin-top: 480px;
-    
-}
-.inner{
-    margin-top: 30px;
-}
-
 .inner{
     margin-top: 30px;
 }
@@ -115,7 +108,7 @@ body{
     background-image: url(images/coffee-bean-tea-espresso-coffee-cup-coffee-beans-27e3377b5fe4cf82cb69afad6b424366\ 1.png);
     background-color: #3E2012;
     height: 350px;
-    padding-right: 50px;
+    padding-right: 20px;
     margin-top: -150px;
     
 }
